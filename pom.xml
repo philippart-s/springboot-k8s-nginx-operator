@@ -40,6 +40,19 @@
 			<artifactId>operator-framework-spring-boot-starter-test</artifactId>
 			<version>1.8.4</version>
 		</dependency>
+
+		<!-- Mandatory for k3s : see https://github.com/fabric8io/kubernetes-client/issues/1796 -->
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-ext-jdk15on</artifactId>
+			<version>1.69</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcpkix-jdk15on</artifactId>
+			<version>1.69</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
