@@ -9,5 +9,4 @@ public class NginxOperatorApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(NginxOperatorApplication.class, args);
 	}
-
 }
