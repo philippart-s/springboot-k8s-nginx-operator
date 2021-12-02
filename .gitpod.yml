@@ -1,7 +1,6 @@
 
 tasks:
   - before: printf "\n[settings]\napi_key = $WAKATIME_API_KEY\n" > ~/.wakatime.cfg
-    init: mvn install -DskipTests=false
 vscode:
   extensions:
     - vscjava.vscode-java-pack
